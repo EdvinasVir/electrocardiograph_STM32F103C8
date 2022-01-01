@@ -6,3 +6,5 @@ Project was coded using STM32Cube IDE and C programming language.
 HAL ILI9341 library was used to draw screen contents, a link to the library: https://github.com/eziya/STM32_HAL_ILI9341
 ILI_9341_DrawLine() function was borrowed from https://github.com/ardnew/ILI9341-STM32-HAL
 
+Bugs:
+1. BPM value fluctuation due to high level of noise in the system (noise spikes are registered as a heartbeat).
