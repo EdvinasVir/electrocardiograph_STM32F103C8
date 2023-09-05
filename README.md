@@ -5,10 +5,9 @@
 A DIY electrocardiograph used to monitor heart rate and calculate beats per minute (BPM). The biomedical sensors are connected to body in three places (right arm, left arm and right leg). The signal is sent to AD8232 heart rate monitor amplifier where the signal is filtered and amplified before being sent to the STM32f103c8t6 microcontroller. The heart activity and the BPM is visualised via screen. Project was coded using STM32Cube IDE and C programming language.  A link to a video demonstration: https://youtu.be/xl9m9C466GI
 
 **Parts**
-
--STM32f103c8t6 microcontroller
--AD8232 heart rate monitor
--2.2 TFT LCD screen
+- STM32f103c8t6 microcontroller
+- AD8232 heart rate monitor
+- 2.2 TFT LCD screen
 
 **Libraries used**
 
